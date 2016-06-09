@@ -173,7 +173,7 @@ if (sprite_index == spr_blizzyAttackRight)
     movingy = true;
     if place_free(x, y+movespeed)
         {
-        sprite_index = spr_izzyFront;
+        sprite_index = spr_blizzyWalkFront;
         y = y + movespeed; 
         } 
     }
@@ -183,7 +183,7 @@ if (gamepad_button_check(0, gp_padu) &amp;&amp; !movingy)
     movingy = true;
     if place_free(x, y-movespeed)
         {
-        sprite_index = spr_izzyBack;
+        sprite_index = spr_blizzyWalkBack;
         y = y - movespeed;  
         }
     }
@@ -193,7 +193,7 @@ if (gamepad_button_check(0, gp_padr) &amp;&amp; !movingx)
     movingx = true;
     if place_free(x + movespeed, y)
         {
-        sprite_index = spr_izzyRight;
+        sprite_index = spr_blizzyWalkRight;
         x = x + movespeed;
         }
     }
@@ -203,7 +203,7 @@ if (gamepad_button_check(0, gp_padl) &amp;&amp; !movingx)
     movingx = true;
     if place_free(x - movespeed, y)
         {
-        sprite_index = spr_izzyLeft;
+        sprite_index = spr_blizzyWalkLeft;
         x = x - movespeed;
         }  
     }
@@ -285,7 +285,7 @@ movingy = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>p2.attacking = 1;
+            <string>attacking = 1;
 </string>
           </argument>
         </arguments>
