@@ -92,7 +92,7 @@
     <instance objName="obj_defenseSpawn" x="3707" y="2909" name="inst_D05CB927" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_defenseSpawn" x="1910" y="2432" name="inst_4C31B42B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_speedSpawn" x="1293" y="3376" name="inst_B41DBC7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_attackSpawn" x="3166" y="4358" name="inst_216BBD03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_attackSpawn" x="2560" y="4352" name="inst_216BBD03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_attackSpawn" x="1836" y="4516" name="inst_8D1CFA16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_defenseSpawn" x="1922" y="1826" name="inst_F1E673CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2HorizontalWall1" x="161" y="5822" name="inst_13058303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -121,7 +121,7 @@
     <instance objName="obj_playerTwo" x="550" y="4429" name="inst_14C88EBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2WorkTable" x="1422" y="7163" name="inst_F339D137" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2Chair" x="1551" y="7237" name="inst_42FEE182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor2Stairs" x="2728" y="9465" name="inst_45C0B345" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor2Stairs" x="2731" y="9467" name="inst_45C0B345" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor3HorizontalWall2" x="7384" y="328" name="inst_F837054A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor3HorizontalWall3" x="7816" y="646" name="inst_B31D8260" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor3HorizontalWall4" x="8157" y="947" name="inst_8E0FABA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -152,6 +152,10 @@
     <instance objName="obj_floor3BorderBottom" x="6622" y="3420" name="inst_BA513313" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor3BorderLeft" x="6562" y="5" name="inst_B0871BFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor3BorderRight" x="9854" y="5" name="inst_820B30C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor1To2" x="4096" y="4352" name="inst_8E561EDA" locked="0" code="" scaleX="3.890625" scaleY="2.48000001907349" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor2To1" x="2880" y="9772" name="inst_FF088C0C" locked="0" code="" scaleX="3.23000001907349" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor2to3" x="377" y="6143" name="inst_775D292F" locked="0" code="" scaleX="1.5" scaleY="1.40625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor3to2" x="6762" y="94" name="inst_6512F8C0" locked="0" code="" scaleX="1.3046875" scaleY="1.95000004768372" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

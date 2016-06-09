@@ -251,7 +251,7 @@ movingy = false;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>gamepad_button_check(1, gp_face1) &amp;&amp; !attacking</string>
+            <string>gamepad_button_check_pressed(1, gp_face1) &amp;&amp; !attacking</string>
           </argument>
         </arguments>
       </action>
@@ -436,7 +436,7 @@ if (sprite_index == spr_blizzyIdleRight || sprite_index == spr_blizzyWalkRight)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>gamepad_button_check(1,gp_face2)</string>
+            <string>gamepad_button_check_pressed(1,gp_face2)</string>
           </argument>
         </arguments>
       </action>

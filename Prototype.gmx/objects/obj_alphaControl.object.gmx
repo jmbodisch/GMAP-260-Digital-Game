@@ -183,7 +183,10 @@ if (global.soundOn == true)
             <kind>1</kind>
             <string>//intro for song has finished, start looping portion
 
+if (global.soundOn == true)
+{
 audio_play_sound(snd_collectionLoop,1,true);
+}
 </string>
           </argument>
         </arguments>
@@ -363,11 +366,11 @@ audio_play_sound(snd_collectionLoop,1,true);
           <argument>
             <kind>1</kind>
             <string>//move players 1 and 2 to the arena
-obj_playerOne.x = 5376;
-obj_playerOne.y = 896;
+obj_playerOne.x = 6912;
+obj_playerOne.y = 8832;
 
-obj_playerTwo.x = 6400;
-obj_playerTwo.y = 896;
+obj_playerTwo.x = 9472;
+obj_playerTwo.y = 8192;
 
 
 //replenish their health

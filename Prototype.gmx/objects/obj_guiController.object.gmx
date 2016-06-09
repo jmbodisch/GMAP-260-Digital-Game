@@ -90,6 +90,7 @@ if(global.complete == true)
         draw_text(width/2,height/2,"PLAYER 1 WINS");
     }
 }
+
 </string>
           </argument>
         </arguments>

@@ -431,6 +431,10 @@
       <object>objects\obj_sound_control</object>
     </objects>
     <object>objects\obj_arenawall</object>
+    <object>objects\obj_floor1To2</object>
+    <object>objects\obj_floor2To1</object>
+    <object>objects\obj_floor2to3</object>
+    <object>objects\obj_floor3to2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_menu</room>
