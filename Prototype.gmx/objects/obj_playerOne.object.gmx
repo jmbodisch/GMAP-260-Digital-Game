@@ -129,6 +129,182 @@ if (sprite_index == spr_izzyAttackRight)
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (gamepad_button_check(0, gp_padd) &amp;&amp; !movingy)
+    {
+    movingy = true;
+    if place_free(x, y+movespeed)
+        {
+        sprite_index = spr_izzyWalkFront;
+        y = y + movespeed; 
+        } 
+    }
+
+if (gamepad_button_check(0, gp_padu) &amp;&amp; !movingy)
+    {
+    movingy = true;
+    if place_free(x, y-movespeed)
+        {
+        sprite_index = spr_izzyWalkBack;
+        y = y - movespeed;  
+        }
+    }
+
+if (gamepad_button_check(0, gp_padr) &amp;&amp; !movingx)
+    {
+    movingx = true;
+    if place_free(x + movespeed, y)
+        {
+        sprite_index = spr_izzyWalkRight;
+        x = x + movespeed;
+        }
+    }
+
+if (gamepad_button_check(0, gp_padl) &amp;&amp; !movingx)
+    {
+    movingx = true;
+    if place_free(x - movespeed, y)
+        {
+        sprite_index = spr_izzyWalkLeft;
+        x = x - movespeed;
+        }  
+    }
+    
+    var h_move = gamepad_axis_value(0, gp_axislh);
+    var v_move = gamepad_axis_value(0, gp_axislv);
+    
+    
+if (h_move != 0 &amp;&amp; !movingx)
+    {
+    movingx = true;
+    if place_free(x+(h_move / abs(h_move)) * movespeed, y)
+        {
+        x += (h_move / abs(h_move)) * movespeed;
+        }
+    }
+if (v_move != 0 &amp;&amp; !movingy)
+    {
+    movingy = true;
+    if place_free(x, y + (v_move / abs(v_move)) * movespeed)
+        {
+        y += (v_move / abs(v_move)) * movespeed;
+        }
+    }
+    
+movingx = false;
+movingy = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>408</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>gamepad_button_check(0, gp_face1) &amp;&amp; !attacking</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>attacking = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>30</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>612</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -377,7 +553,7 @@ if mydef &lt; 1
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_victoryTheme</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
