@@ -180,6 +180,30 @@
       <sprite>sprites\spr_floor3TeslaCoilLeft</sprite>
       <sprite>sprites\spr_floor3TeslaCoilRight</sprite>
     </sprites>
+    <sprites name="arena">
+      <sprite>sprites\spr_arenaHorizontalWall1</sprite>
+      <sprite>sprites\spr_arenaHorizontalWall2</sprite>
+      <sprite>sprites\spr_arenaHorizontalWall3</sprite>
+      <sprite>sprites\spr_arenaHorizontalWall4</sprite>
+      <sprite>sprites\spr_arenaHorizontalWall5</sprite>
+      <sprite>sprites\spr_arenaHorizontalWall6</sprite>
+      <sprite>sprites\spr_arenaHorizontalWall7</sprite>
+      <sprite>sprites\spr_arenaHorizontalWall8</sprite>
+      <sprite>sprites\spr_arenaVerticalWall1</sprite>
+      <sprite>sprites\spr_arenaVerticalWall2</sprite>
+      <sprite>sprites\spr_arenaVerticalWall3</sprite>
+      <sprite>sprites\spr_arenaVerticalWall4</sprite>
+      <sprite>sprites\spr_arenaVerticalWall5</sprite>
+      <sprite>sprites\spr_arenaVerticalWall6</sprite>
+      <sprite>sprites\spr_arenaVerticalWall7</sprite>
+      <sprite>sprites\spr_arenaDiagonalWall1</sprite>
+      <sprite>sprites\spr_arenaDiagonalWall2</sprite>
+      <sprite>sprites\spr_arenaCurvedWall1</sprite>
+      <sprite>sprites\spr_arenaCurvedWall2</sprite>
+      <sprite>sprites\spr_arenaCurvedWall3</sprite>
+      <sprite>sprites\spr_arenaCurvedWall4</sprite>
+      <sprite>sprites\spr_arenaCurvedWall5</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background4</background>
@@ -190,6 +214,7 @@
     <background>background\title_background</background>
     <background>background\bg_floor2</background>
     <background>background\bg_floor3</background>
+    <background>background\bg_arena</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -284,6 +309,30 @@
         <object>objects\obj_floor3VerticalWall9</object>
         <object>objects\obj_floor3TeslaCoilLeft</object>
         <object>objects\obj_floor3TeslaCoilRight</object>
+      </objects>
+      <objects name="arena">
+        <object>objects\obj_arenaHorizontalWall1</object>
+        <object>objects\obj_arenaHorizontalWall2</object>
+        <object>objects\obj_arenaHorizontalWall3</object>
+        <object>objects\obj_arenaHorizontalWall4</object>
+        <object>objects\obj_arenaHorizontalWall5</object>
+        <object>objects\obj_arenaHorizontalWall6</object>
+        <object>objects\obj_arenaHorizontalWall7</object>
+        <object>objects\obj_arenaHorizontalWall8</object>
+        <object>objects\obj_arenaVerticalWall1</object>
+        <object>objects\obj_arenaVerticalWall2</object>
+        <object>objects\obj_arenaVerticalWall3</object>
+        <object>objects\obj_arenaVerticalWall4</object>
+        <object>objects\obj_arenaVerticalWall5</object>
+        <object>objects\obj_arenaVerticalWall6</object>
+        <object>objects\obj_arenaVerticalWall7</object>
+        <object>objects\obj_arenaDiagonalWall1</object>
+        <object>objects\obj_arenaDiagonalWall2</object>
+        <object>objects\obj_arenaCurvedWall1</object>
+        <object>objects\obj_arenaCurvedWall2</object>
+        <object>objects\obj_arenaCurvedWall3</object>
+        <object>objects\obj_arenaCurvedWall4</object>
+        <object>objects\obj_arenaCurvedWall5</object>
       </objects>
     </objects>
     <objects name="prototype">
