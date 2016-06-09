@@ -153,6 +153,9 @@
       <sprite>sprites\spr_floor2BorderBottom</sprite>
       <sprite>sprites\spr_floor2BorderLeft</sprite>
       <sprite>sprites\spr_floor2BorderRight</sprite>
+      <sprite>sprites\spr_floor2WorkTable</sprite>
+      <sprite>sprites\spr_floor2Chair</sprite>
+      <sprite>sprites\spr_floor2Stairs</sprite>
     </sprites>
     <sprite>sprites\spr_arenawall</sprite>
     <sprites name="floor 3">
@@ -306,6 +309,9 @@
         <object>objects\obj_floor2BorderBottom</object>
         <object>objects\obj_floor2BorderLeft</object>
         <object>objects\obj_floor2BorderRight</object>
+        <object>objects\obj_floor2WorkTable</object>
+        <object>objects\obj_floor2Chair</object>
+        <object>objects\obj_floor2Stairs</object>
       </objects>
       <objects name="floor 3">
         <object>objects\obj_floor3HorizontalWall1</object>
