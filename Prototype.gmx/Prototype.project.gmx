@@ -203,6 +203,20 @@
       <sprite>sprites\spr_arenaCurvedWall3</sprite>
       <sprite>sprites\spr_arenaCurvedWall4</sprite>
       <sprite>sprites\spr_arenaCurvedWall5</sprite>
+	</sprites>
+    <sprites name="blizzy">
+      <sprite>sprites\spr_blizzyAttackFront</sprite>
+      <sprite>sprites\spr_blizzyAttackBack</sprite>
+      <sprite>sprites\spr_blizzyAttackLeft</sprite>
+      <sprite>sprites\spr_blizzyAttackRight</sprite>
+      <sprite>sprites\spr_blizzyWalkFront</sprite>
+      <sprite>sprites\spr_blizzyWalkBack</sprite>
+      <sprite>sprites\spr_blizzyWalkLeft</sprite>
+      <sprite>sprites\spr_blizzyWalkRight</sprite>
+      <sprite>sprites\spr_blizzyIdleFront</sprite>
+      <sprite>sprites\spr_blizzyIdleBack</sprite>
+      <sprite>sprites\spr_blizzyIdleLeft</sprite>
+      <sprite>sprites\spr_blizzyIdleRight</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
