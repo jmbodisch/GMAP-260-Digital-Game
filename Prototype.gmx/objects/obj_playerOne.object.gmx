@@ -25,13 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>attacking = 0;
+            <string>movespeed = 7;
+movingx = false;
+movingy = false;
+myhealth = 100;
+attacking = 0;
 hurting = 0;
 myhealth = 100;
 myspeed = 1;
 myatt = 1;
 mydef = 1;
-movespeed = 7;
 specialActive = 0;
 </string>
           </argument>

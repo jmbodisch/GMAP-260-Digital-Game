@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>movespeed = 7;
-gamepad_set_axis_deadzone(0,0.5)
 movingx = false;
 movingy = false;
 myhealth = 100;
@@ -38,30 +37,6 @@ myatt = 1;
 mydef = 1;
 specialActive = 0;
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>543</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sprite_color</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>13</kind>
-            <string>16777088</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
           </argument>
         </arguments>
       </action>

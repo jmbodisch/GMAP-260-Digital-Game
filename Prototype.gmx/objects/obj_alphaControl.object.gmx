@@ -137,6 +137,10 @@ if (global.soundOn == true)
     audio_play_sound(snd_collectionIntro, 1, false);
     alarm[1] = room_speed * len;
 }
+
+//axis deadzones
+gamepad_set_axis_deadzone(0, 0.5);
+gamepad_set_axis_deadzone(1, 0.5);
 </string>
           </argument>
         </arguments>

@@ -83,7 +83,7 @@ if(global.complete == true)
         draw_set_font(fnt_numbers);
         draw_text(width/2,height/2,"PLAYER 2 WINS");
     }
-    else //player 2 lost
+    else if (obj_playerTwo.myhealth &lt;= 0) //player 2 lost
     {
         draw_set_color(c_white);
         draw_set_font(fnt_numbers);
