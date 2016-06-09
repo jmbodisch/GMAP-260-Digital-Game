@@ -679,7 +679,7 @@ if (sprite_index == spr_blizzyIdleRight || sprite_index == spr_blizzyWalkRight)
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_alphaControl</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -871,7 +871,7 @@ if mydef &lt; 0
         <exetype>1</exetype>
         <functionname>action_set_alarm</functionname>
         <codestring></codestring>
-        <whoName>obj_alphaControl</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
