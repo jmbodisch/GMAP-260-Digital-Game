@@ -182,6 +182,11 @@
       <sprite>sprites\spr_floor3VerticalWall9</sprite>
       <sprite>sprites\spr_floor3TeslaCoilLeft</sprite>
       <sprite>sprites\spr_floor3TeslaCoilRight</sprite>
+      <sprite>sprites\spr_floor3GeneratorLeft</sprite>
+      <sprite>sprites\spr_floor3GeneratorRight</sprite>
+      <sprite>sprites\spr_floor3BorderBottom</sprite>
+      <sprite>sprites\spr_floor3BorderLeft</sprite>
+      <sprite>sprites\spr_floor3BorderRight</sprite>
     </sprites>
     <sprites name="arena">
       <sprite>sprites\spr_arenaHorizontalWall1</sprite>
@@ -329,6 +334,11 @@
         <object>objects\obj_floor3VerticalWall9</object>
         <object>objects\obj_floor3TeslaCoilLeft</object>
         <object>objects\obj_floor3TeslaCoilRight</object>
+        <object>objects\obj_floor3GeneratorLeft</object>
+        <object>objects\obj_floor3GeneratorRight</object>
+        <object>objects\obj_floor3BorderBottom</object>
+        <object>objects\obj_floor3BorderLeft</object>
+        <object>objects\obj_floor3BorderRight</object>
       </objects>
       <objects name="arena">
         <object>objects\obj_arenaHorizontalWall1</object>
