@@ -31,7 +31,7 @@ myhealth = mylevel * 20;
 maxhealth = myhealth;
 hurting = 0;
 attacking = 0;
-radius = 100;
+radius = 300;
 engaged = 0;
 </string>
           </argument>
@@ -525,7 +525,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>damage = ((myatt / obj_playerOne.mydef) * 3) + 3;
+            <string>damage = ((myatt / obj_playerTwo.mydef) * 3) + 3;
 obj_playerTwo.myhealth = ceil(obj_playerTwo.myhealth - damage);
 </string>
           </argument>

@@ -150,7 +150,11 @@ if (sprite_index == spr_izzyAttackRight)
         {
         sprite_index = spr_izzyWalkFront;
         y = y + movespeed; 
-        } 
+        }
+    else
+        {
+        sprite_index = spr_izzyIdleFront;
+        }         
     }
 
 if (gamepad_button_check(0, gp_padu) &amp;&amp; !movingy)
@@ -161,6 +165,10 @@ if (gamepad_button_check(0, gp_padu) &amp;&amp; !movingy)
         sprite_index = spr_izzyWalkBack;
         y = y - movespeed;  
         }
+    else
+        {
+        sprite_index = spr_izzyIdleBack;
+        }        
     }
 
 if (gamepad_button_check(0, gp_padr) &amp;&amp; !movingx)
@@ -170,6 +178,10 @@ if (gamepad_button_check(0, gp_padr) &amp;&amp; !movingx)
         {
         sprite_index = spr_izzyWalkRight;
         x = x + movespeed;
+        }
+    else
+        {
+        sprite_index = spr_izzyIdleRight;
         }
     }
 
@@ -181,7 +193,11 @@ if (gamepad_button_check(0, gp_padl) &amp;&amp; !movingx)
         sprite_index = spr_izzyWalkLeft;
         x = x - movespeed;
         }  
+    else
+    {
+        sprite_index = spr_izzyIdleLeft;
     }
+}
     
     var h_move = gamepad_axis_value(0, gp_axislh);
     var v_move = gamepad_axis_value(0, gp_axislv);
@@ -201,24 +217,36 @@ if (h_move != 0 &amp;&amp; !movingx)
         //move the character
         x += (h_move / abs(h_move)) * movespeed;
         }
+    else
+    { //idle animation
+        if (h_move &gt; 0)
+            sprite_index = spr_izzyIdleRight;
+        else
+            sprite_index = spr_izzyIdleLeft;     
+    }   
     }
 if (v_move != 0 &amp;&amp; !movingy)
     {
     movingy = true;
     
-    //walking animation
+    //move the character        
+    if place_free(x, y + (v_move / abs(v_move)) * movespeed)
+        {
+        //walking animation
         if (v_move &gt; 0)
             sprite_index = spr_izzyWalkFront;
         else
             sprite_index = spr_izzyWalkBack;
-    
-    //move the character        
-    if place_free(x, y + (v_move / abs(v_move)) * movespeed)
-        {
         y += (v_move / abs(v_move)) * movespeed;
         }
-    }
-    
+    else
+    { //idle animation
+        if (v_move &gt; 0)
+            sprite_index = spr_izzyIdleFront;
+        else
+            sprite_index = spr_izzyIdleBack;     
+    }   
+}
 movingx = false;
 movingy = false;
 </string>
@@ -825,7 +853,7 @@ if mydef &lt; 1
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>snd_victoryTheme</sound>
           </argument>
           <argument>
             <kind>3</kind>

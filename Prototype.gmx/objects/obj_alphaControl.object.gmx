@@ -414,6 +414,13 @@ obj_playerTwo.myHealth = 100;
     audio_stop_sound(snd_collectionLoop);
     audio_play_sound(snd_collectionEnding,1,false);
 }
+if (global.complete)
+{
+    obj_playerOne.x = -1000;
+    obj_playerOne.y = 0;
+    obj_playerTwo.x = 0;
+    obj_playerTwo.y = -1000;
+}
 </string>
           </argument>
         </arguments>

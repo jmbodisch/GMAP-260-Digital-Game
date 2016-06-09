@@ -31,7 +31,7 @@ myhealth = mylevel * 20;
 maxhealth = myhealth;
 hurting = 0;
 attacking = 0;
-radius = 100;
+radius = 400;
 engaged = 0;
 </string>
           </argument>
