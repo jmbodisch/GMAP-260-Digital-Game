@@ -1689,26 +1689,6 @@ myhealth = ceil(myhealth - damage);
         <arguments>
           <argument>
             <kind>1</kind>
-<<<<<<< HEAD
-            <string>if (sprite_index == spr_izzyIdleFront || sprite_index == spr_izzyWalkFront)
-{
-    sprite_index = spr_izzyAttackFront;
-    instance_create(x,y+128,obj_hitboxP2);
-}
-if (sprite_index == spr_izzyIdleBack || sprite_index == spr_izzyWalkBack)
-{
-    sprite_index = spr_izzyAttackBack;
-    instance_create(x,y-64,obj_hitboxP2);
-}
-if (sprite_index == spr_izzyIdleLeft || sprite_index == spr_izzyWalkLeft)
-{
-    sprite_index = spr_izzyAttackLeft;
-    instance_create(x-64,y+64,obj_hitboxP2);
-}
-if (sprite_index == spr_izzyIdleRight || sprite_index == spr_izzyWalkRight)
-{
-    sprite_index = spr_izzyAttackRight;
-=======
             <string>if (sprite_index == spr_blizzyIdleFront || sprite_index == spr_blizzyWalkFront)
 {
     sprite_index = spr_blizzyAttackFront;
@@ -1727,7 +1707,6 @@ if (sprite_index == spr_blizzyIdleLeft || sprite_index == spr_blizzyWalkLeft)
 if (sprite_index == spr_blizzyIdleRight || sprite_index == spr_blizzyWalkRight)
 {
     sprite_index = spr_blizzyAttackRight;
->>>>>>> a14d7891c4a3569193a79e7429e3e707b80718e2
     instance_create(x+64,y+64,obj_hitboxP2);
 }
 </string>
