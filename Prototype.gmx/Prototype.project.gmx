@@ -413,7 +413,7 @@
     <objects name="controllers">
       <object>objects\obj_globals</object>
       <object>objects\obj_guiController</object>
-      <object>objects\obj_playerTwo</object>
+      <object>objects\obj_alphaControl</object>
       <object>objects\obj_playerControl</object>
     </objects>
     <objects name="player">
