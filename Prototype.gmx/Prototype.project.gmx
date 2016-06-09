@@ -150,9 +150,9 @@
       <sprite>sprites\spr_floor2Bookshelf1</sprite>
       <sprite>sprites\spr_floor2Bookshelf2</sprite>
       <sprite>sprites\spr_floor2Crates</sprite>
-      <sprite>sprites\spr_floor2WorkTable</sprite>
-      <sprite>sprites\spr_floor2Chair</sprite>
-      <sprite>sprites\spr_floor2Stairs</sprite>
+      <sprite>sprites\spr_floor2BorderBottom</sprite>
+      <sprite>sprites\spr_floor2BorderLeft</sprite>
+      <sprite>sprites\spr_floor2BorderRight</sprite>
     </sprites>
     <sprite>sprites\spr_arenawall</sprite>
     <sprites name="floor 3">
@@ -298,9 +298,9 @@
         <object>objects\obj_floor2Bookshelf1</object>
         <object>objects\obj_floor2Bookshelf2</object>
         <object>objects\obj_floor2Crates</object>
-        <object>objects\obj_floor2WorkTable</object>
-        <object>objects\obj_floor2Chair</object>
-        <object>objects\obj_floor2Stairs</object>
+        <object>objects\obj_floor2BorderBottom</object>
+        <object>objects\obj_floor2BorderLeft</object>
+        <object>objects\obj_floor2BorderRight</object>
       </objects>
       <objects name="floor 3">
         <object>objects\obj_floor3HorizontalWall1</object>
@@ -391,6 +391,7 @@
     </objects>
     <objects name="player">
       <object>objects\obj_playerOne</object>
+      <object>objects\obj_playerTwo</object>
       <objects name="hitboxes">
         <object>objects\obj_hitboxP1</object>
         <object>objects\obj_specialP1</object>
